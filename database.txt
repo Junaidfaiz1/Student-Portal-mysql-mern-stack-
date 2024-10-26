@@ -1,0 +1,12 @@
+-- Create the database
+CREATE DATABASE Student_portal;
+
+-- Use the database
+USE Student_portal;
+
+-- Create the table with the specified columns and constraints
+CREATE TABLE student (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL
+);
